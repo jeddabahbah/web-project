@@ -1,1 +1,1 @@
-<div id="copyright text-right">© Copyright 2017 J3dd;</div>
+<div class="footer" id="copyright text-right">© Copyright 2017 J3dd;</div>

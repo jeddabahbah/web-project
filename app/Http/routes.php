@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('pages.landing-page');
 });
+
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/schedule', function () {
+    return view('pages.schedule');
+});

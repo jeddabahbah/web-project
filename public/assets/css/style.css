@@ -1,136 +1,191 @@
-html, body {
-    height: 100%;
+.footer{
+  text-align: center;
+  height: 60px;
+  background-color: #000000d9;
+  color: #fff;
+  padding-top: 20px;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: table;
-    font-weight: 100;
-    font-family: 'Lato';
-
-    position: absolute;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    padding-top: 80px;
-    height: 1900px;
+.container-fluid {
+  max-width: 1200px;
 }
-
-*{
-  box-sizing: border-box;
+.navbar-inverse {
+   border-radius: 0px;
+   background-color: #0000 !important;
+   border-color: #0000 !important;
+   color: #fff;
 }
-
-header {
-  position: fixed;
-  top: 0;
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff !important;
+  padding-top: 30px;
+}
+.login {
+  width: 124px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #0000;
+}
+/**home**/
+#section1 {
+  height: 100vh;
   width: 100%;
-  z-index: 10;
+  margin-top: -105px;
+  padding-top: 95px;
+  background-image: url("/assets/img/home/Head-BG.png");
 }
-
-@supports (position: sticky) {
-  body {
-    padding-top: 0;
-  }
-
-  header {
-    position: sticky;
-  }
-
-}
-
-.navbar {
-  position: relative;
-  height: 80px;
+#section2 {
+  height: 100vh;
   width: 100%;
-  transition: 0.5s ease;
+}
+#section3 {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+  background-image: url("/assets/img/home/2.png");
+  background-repeat: none;
+}
+#section4 {
+  height: 100vh;
+  width: 100%;
+  background-color: #202020;
+}
+#section5 {
+  width: 100%;
+  background-color: #fff;
+}
+#section6 {
+  height: 100vh;
+  width: 100%;
+  background-color: #202020;
 }
 
-.navbar .nav {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  float: right;
-  margin-right: 5%;
+.pos-home-detail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 200px;
+}
+.welcome {
+  font-size: 100px;
+  color: #fff;
+}
+.welcome-desc {
+  font-size: 20px;
+  color: #fff;
+}
+.welcome-btn {
+  width: 193px;
+  height: 42px;
+  border-radius: 20px;
+  border: 0px;
+  color: #fff;
+  background-color: #ff5656;
+}
+.pos-activity {
+  margin-top: 70px;
+  border: 2px solid #262626;
+}
+.pos-activity-detail {
+  padding: 100px 150px;
+}
+.time{
+  color: #fff;
+}
+.time-desc{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  color: #fff;
+}
+.new-acis {
+  text-align: center;
+  padding: 50px;
 }
 
-.navbar .nav .item {
-  list-style: none;
-  display: inline-block;
-  font-size: 18px;
-  padding: 5px;
-  font-weight: 300;
-  line-height: 80px;
-  margin-right: 20px;
-  transition: 0.5s ease;
+.pos-conditions-detail {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  width: 600px;
+  color: #fff;
+}
+.conditions-btn{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 193px;
+  height: 42px;
+  border-radius: 20px;
+  border: 0px;
+  color: #fff;
+  background-color: #ff5656;
 }
 
-.navbar .nav .item .contact {
-  display: inline-block;
-  background-color: #ffffff;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
+/**contact**/
+#section1-contact {
+  height: 280px;
+  width: 100%;
+  margin-top: -105px;
+  padding-top: 95px;
+  background-image: url("/assets/img/home/Head-BG.png");
+  background-size: cover;
+}
+.contact-header{
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+#section2-contact{
+  margin-bottom: 30px;
+}
+.our-team{
+  text-align: center;
 }
 
-.navbar .nav .item a {
-  text-decoration: none;
-  color: inherit;
+#section3-contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #202020;
+  color: #fff;
+}
+.detail-section3 {
+  padding-right: 80px !important;
+  padding-left: 80px !important;
 }
 
-.navbar .logo {
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5%;
-  width: 70px;
-  height: 70px;
-  background-color: firebrick;
-  transition: 0.5s ease;
+/*schedule*/
+#section1-schedule {
+  height: 280px;
+  width: 100%;
+  margin-top: -105px;
+  padding-top: 95px;
+  background-image: url("/assets/img/home/Head-BG.png");
+  background-size: cover;
 }
-
-.navbar .logo img {
-  display: none;
+.schedule-header{
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
 }
-
-.scrolled {
- transition: 0.5s ease;
+#section2-schedule{
+  margin-bottom: 30px;
 }
-
-.scrolled.navbar {
-  height: 50px; 
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: 0.5s ease;
-
-}
-
-
-.scrolled.navbar .nav .item {
-  line-height: 40px;
-  transition: 0.5s ease;
-}
-
-.scrolled.navbar .nav .item .contact {
-  display: inline-block;
-  background-color: #ffffff;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
-}
-
-.scrolled.navbar .logo {
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5%;
-  width: 40px;
-  height: 40px;
-  background-color: firebrick;
-  transition: 0.5s ease;
+#schedule{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  height: 800px;
+  border-radius: 20px;
+  background-color: hotpink;
 }
