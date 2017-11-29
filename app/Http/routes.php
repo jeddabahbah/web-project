@@ -23,3 +23,7 @@ Route::get('/contact', function () {
 Route::get('/schedule', function () {
     return view('pages.schedule');
 });
+
+Route::get('/calculate', function () {
+    return view('pages.calculate');
+});
